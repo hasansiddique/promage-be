@@ -10,9 +10,5 @@ export default {
     clusterUrl: process.env.MONGODB_CLUSTER_URL || 'mongodb+srv://hasansiddique:Hasan@123456@promage.oy7f8wk.mongodb.net/?retryWrites=true&w=majority&appName=promage',
     database: process.env.MONGODB_DATABASE || 'promage',
   },
-  secret: {
-    admin1: 'superAdminWarLord1',
-    admin2: 'AdminWarLord2',
-  },
 };
 
